@@ -1,0 +1,47 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+debug.log
+error.log
+out.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Build / cache
+dist/
+build/
+.cache/
+.tmp/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Test output
+jest-coverage/
+.nyc_output/
+
+# VSCode / IDE stuff
+.vscode/
+.idea/
+*.swp
+*.swo
